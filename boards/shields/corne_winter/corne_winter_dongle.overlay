@@ -36,6 +36,10 @@
         page-offset = <0>;
         display-offset = <0>;
 
-        multiplex-ratio = <31>; /* 31 for 32px height, 63 for 64px */
+        multiplex-ratio = <31>; /* 31 = 32px height */
+
+        prechargep = <0x22>;
+
+        com-invdir;
     };
 };
