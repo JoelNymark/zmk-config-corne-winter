@@ -1,3 +1,5 @@
+name: zmk-keyboard-corne-winter
 build:
   settings:
     board_root: .
+    snippet_root: .
