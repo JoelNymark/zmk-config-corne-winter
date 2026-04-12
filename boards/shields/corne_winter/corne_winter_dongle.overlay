@@ -11,7 +11,7 @@
 
     /* 👇 THIS is required for ZMK display */
     chosen {
-        zmk,display = &oled;
+        zephyr,display = &oled;
     };
 };
 
