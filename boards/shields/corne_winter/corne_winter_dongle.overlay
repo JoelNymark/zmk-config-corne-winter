@@ -39,7 +39,7 @@
         multiplex-ratio = <127>; 
         prechargep = <0x22>;
 
-        com-invdir;
+        // com-invdir;
 
 
     };
