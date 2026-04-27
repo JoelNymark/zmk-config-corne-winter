@@ -36,7 +36,7 @@
         page-offset = <0>;
         display-offset = <0>;
 
-        multiplex-ratio = <127>; 
+        // multiplex-ratio = <127>; 
         prechargep = <0x22>;
 
         // com-invdir;
