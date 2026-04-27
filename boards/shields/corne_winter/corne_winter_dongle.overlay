@@ -30,14 +30,13 @@
         label = "OLED";
 
         width = <128>;
-        height = <32>;
+        height = <128>;
 
         segment-offset = <0>;
         page-offset = <0>;
         display-offset = <0>;
 
-        multiplex-ratio = <31>; /* 31 = 32px height */
-
+        multiplex-ratio = <127>; 
         prechargep = <0x22>;
 
         com-invdir;
