@@ -34,6 +34,8 @@
         multiplex-ratio = <119>;
         segment-remap;
         com-invdir;
+        inversion-on;
+        flip-y; // Adds 180-degree vertical flip
         prechargep = <0x22>;
         };
 };
