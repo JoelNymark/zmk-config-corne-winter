@@ -1,12 +1,6 @@
 if SHIELD_CORNE_WINTER_LEFT || SHIELD_CORNE_WINTER_RIGHT
-config ZMK_KEYBOARD_NAME
-    default "Halvs"
-
 config ZMK_SPLIT_ROLE_CENTRAL
     default n
-
-config ZMK_SPLIT_ROLE_PERIPHERAL
-    default y
 
 config ZMK_SPLIT
     default y
@@ -29,9 +23,9 @@ config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
   default 2
 
 config BT_MAX_CONN
-  default 7
+  default 6
 
 config BT_MAX_PAIRED
-  default 7
+  default 6
 
 endif
