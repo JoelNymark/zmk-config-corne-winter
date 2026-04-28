@@ -32,9 +32,9 @@
         page-offset = <0>;
         display-offset = <0>;
         multiplex-ratio = <119>;
-        
-        
-        inversion-on;
+        segment-remap;
+        com-invdir;
+
         prechargep = <0x22>;
         };
 };
