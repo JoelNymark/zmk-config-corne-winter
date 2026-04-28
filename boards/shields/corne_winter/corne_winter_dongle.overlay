@@ -34,7 +34,6 @@
         multiplex-ratio = <119>;
         segment-remap;
         com-invdir;
-        rotation = <90>;
         prechargep = <0x22>;
         };
 };
