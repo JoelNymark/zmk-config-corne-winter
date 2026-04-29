@@ -20,9 +20,10 @@
     kscan = <&kscan_dongle>;
 };
 
-/* 👇 Enable I2C + define OLED */
+/* I2C + SH1107 display */
 &pro_micro_i2c {
     status = "okay";
+
     oled: sh1107@3c {
         compatible = "sinowealth,sh1107";
         reg = <0x3c>;
@@ -30,14 +31,20 @@
         width = <128>;
         height = <128>;
 
+        /* 🔑 THESE MATTER */
         segment-offset = <0>;
         page-offset = <0>;
-        display-offset = <0>;
+
+        /* 🔥 This is the magic for SH1107 */
+        display-offset = <32>;
 
         multiplex-ratio = <127>;
 
+        /* Stable power settings */
         prechargep = <0x22>;
-        segment-remap;
-        com-invdir;
+
+        /* ⚠️ Do NOT rely on these (often ignored) */
+        /* segment-remap; */
+        /* com-invdir; */
     };
 };
