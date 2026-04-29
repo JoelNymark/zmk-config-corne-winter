@@ -6,7 +6,7 @@ include:
     shield: corne_winter_right nice_view_adapter nice_epaper
     # Dongle
   - board: nice_nano_v2
-    shield: corne_winter_dongle oled_adapter_pro_micro_128x128
+    shield: corne_winter_dongle oled_adapter_pro_micro_128x64
 
   # - board: nice_nano_v2
   #   shield: corne_winter_left nice_view_adapter nice_view
